@@ -1,0 +1,35 @@
+.seat {
+    font-family: arial;
+    font-weight: bold;
+    width: 28px;
+    margin: 2px;
+    color: #FFFFFF !important;
+    font-size: 14px;
+    padding: 1px 4px;
+    border-radius: 3px;
+    background: #000000;
+}
+
+.seat:hover {
+    color: #FFFFFF !important;
+    background: #0E1BCF;
+}
+
+.active_seat {
+    color: #FFFFFF !important;
+    background: green;
+}
+
+.sold_seat {
+    color: #FFFFFF !important;
+    background: red;
+    pointer-events: none;
+}
+
+.bus {
+    border: 1px solid red;
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 140px;
+    text-align: center;
+}
